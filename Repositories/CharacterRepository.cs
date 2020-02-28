@@ -17,7 +17,10 @@ namespace FF_XII_API.Repositories
 
         public async Task<IEnumerable<Character>> ListAsync()
         {
-            return await _context.Characters.ToListAsync();
+            return await _context.Characters
+                .Include(c => c.CharacterTypes)
+                    .ThenInclude(ct => ct.CharacterType)
+                .ToListAsync();
         }
     }
 }

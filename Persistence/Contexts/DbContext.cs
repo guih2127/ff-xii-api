@@ -15,7 +15,7 @@ namespace FF_XII_API.Persistence.Contexts
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<Character>().ToTable("Categories");
+            builder.Entity<Character>().ToTable("Character");
             builder.Entity<Character>().HasKey(c => c.Id);
             builder.Entity<Character>().Property(c => c.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Entity<Character>().Property(c => c.Name).IsRequired().HasMaxLength(100);
@@ -40,14 +40,32 @@ namespace FF_XII_API.Persistence.Contexts
                 .HasForeignKey(ctc => ctc.CharacterId);
             builder.Entity<CharacterTypeCharacter>()
                 .HasOne(ctc => ctc.CharacterType)
-                .WithMany(t => t.CharacterTypes)
+                .WithMany(t => t.Characters)
                 .HasForeignKey(ctc => ctc.CharacterTypeId);
 
+            builder.Entity<CharacterGender>().HasData
+            (
+                new CharacterGender { Id = 1, Name = "Gênero 1" },
+                new CharacterGender { Id = 2, Name = "Gênero 2" }
+            );
+
+            builder.Entity<CharacterType>().HasData
+            (
+                new CharacterGender { Id = 1, Name = "Tipo 1" },
+                new CharacterGender { Id = 2, Name = "Tipo 2" }
+            );
+
+            builder.Entity<CharacterTypeCharacter>().HasData
+            (
+                new CharacterTypeCharacter { CharacterId = 1, CharacterTypeId = 1 },
+                new CharacterTypeCharacter { CharacterId = 1, CharacterTypeId = 2 },
+                new CharacterTypeCharacter { CharacterId = 2, CharacterTypeId = 1 }
+            );
 
             builder.Entity<Character>().HasData
             (
-              new Character { Id = 1, Name = "Personagem 1" },
-              new Character { Id = 2, Name = "Personagem 2" }
+              new Character { Id = 1, Name = "Personagem 1", GenderId = 1 },
+              new Character { Id = 2, Name = "Personagem 2", GenderId = 2 }
             );
         }
     }

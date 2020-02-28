@@ -105,5 +105,24 @@ C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.
 C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\obj\Debug\netcoreapp3.1\FF-XII API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\PICHAU\Documents\Desenvolvimento\Home\FF-XII API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

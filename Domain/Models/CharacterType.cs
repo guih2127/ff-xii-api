@@ -6,6 +6,6 @@ namespace FF_XII_API.Domain.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public IList<CharacterTypeCharacter> CharacterTypes { get; set; } = new List<CharacterTypeCharacter>();
+        public IList<CharacterTypeCharacter> Characters { get; set; } = new List<CharacterTypeCharacter>();
     }
 }
